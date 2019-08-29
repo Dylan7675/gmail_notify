@@ -12,6 +12,8 @@ Python 3.X
 
 Gmail account
 
+[Gmail API access](https://developers.google.com/gmail/api/quickstart/python)
+
 ### Installing
 
 Clone this repository to your local enviroment.
@@ -30,6 +32,18 @@ Install the required dependencies.
 
 ```
 pip3 install -r requirements.txt
+```
+
+Enable Gmail API.
+
+```
+Follow the link in the prerequisits section and enable the Gmail API. This will download a credentials.json file.
+```
+
+Move the credentials file to the repository.
+
+```
+mv ~/Downloads/credentials.json .
 ```
 
 ### Running the script
