@@ -37,7 +37,8 @@ pip3 install -r requirements.txt
 Enable Gmail API.
 
 ```
-Follow the link in the prerequisits section and enable the Gmail API. This will download a credentials.json file.
+Follow the link in the prerequisits section and enable the Gmail API. 
+This will download a credentials.json file.
 ```
 
 Move the credentials file to the repository.
