@@ -89,7 +89,7 @@ def get_message(service, labels):
             print(f"an error has occured: {error}")
 
         if not messages:
-            print(f"No messages found in {label}.")
+            print(f"No messages found.")
         else:
             for message in messages:
                 msg = service.users().messages().get(userId='me', id=message['id']).execute()
